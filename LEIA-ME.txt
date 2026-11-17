@@ -1,0 +1,67 @@
+# CYBER_ALERTA // SIPAT 2026
+
+Projeto educativo sobre golpes com deepfake de voz e vídeo e segurança
+no uso de computadores compartilhados.
+
+## Estética desta versão
+**Cyberpunk SOC (Security Operations Center)** — visual de central de monitoramento
+de ameaças: fundo preto puro, verde neon e magenta como acentos, tipografia
+monospace (JetBrains Mono) misturada com Space Grotesk para títulos.
+
+## Como abrir
+1. Extraia o arquivo ZIP (ou copie a pasta `cyber-alerta`).
+2. Abra `index.html` em um navegador atualizado (Chrome, Edge, Firefox, Safari).
+3. Para publicar, envie os três arquivos (`index.html`, `styles.css`,
+   `script.js`) para o serviço de hospedagem autorizado pelo professor.
+
+## Funcionalidades
+- Topbar com status do sistema e relógio em tempo real.
+- Hero com terminal de comando animado (typing), título com glitch effect
+  e painel HUD com métricas de "análise de identidade".
+- Quiz com cinco perguntas, correção automática, transições de fade e
+  resultado final estilizado como relatório de score.
+- Checklist interativo com percentual e barra de progresso (estilo
+  terminal audit).
+- Galeria "Imagens dos casos reais" (abaixo das fontes): prints
+  das reportagens e fontes institucionais consultadas na pesquisa.
+  Cada imagem abre em lightbox com navegação por teclado (← → Esc)
+  e setas.
+- Background com grid sutil + scan lines animadas.
+- Cantos de moldura HUD em vários cards (hover).
+- Animações de scroll reveal (IntersectionObserver).
+- Scroll spy que destaca a seção ativa na navegação.
+- Barra de progresso de leitura no topo.
+- Botão "voltar ao topo" flutuante.
+- Menu hambúrguer no mobile com animação para X.
+- Acessibilidade: skip link, foco visível, `prefers-reduced-motion`.
+
+## Comparação com a versão anterior
+| Aspecto | Versão anterior | Esta versão |
+|---|---|---|
+| Fundo | off-white creme (#f6f3ec) | preto puro (#050608) |
+| Acento | laranja queimado (#ef5a30) | neon verde (#00ff88) + magenta (#ff2e88) |
+| Tipografia títulos | Fraunces (serif editorial) | Space Grotesk (geometric sans) |
+| Tipografia rótulos | DM Mono | JetBrains Mono |
+| Estilo | Editorial / revista tech | Cyberpunk SOC / terminal hacker |
+| Efeitos | parallax sutil, hover soft | glitch, scan lines, grid bg, HUD corners |
+
+## Personalização antes da entrega
+- Confirme com o professor o formato de entrega/publicação.
+- Acrescente seu nome e, se necessário, turma/instituição no rodapé
+  ou na seção do hero.
+- Faça capturas de tela reais da pesquisa, do editor, dos testes em
+  computador/celular e das interações funcionando. Não invente prints.
+- Gere o relatório PDF final com as capturas reais e seu diário de bordo.
+
+## Observação sobre o caso
+O site resume reportagens da CNN Brasil (16/01/2025), Correio Braziliense
+(09/05/2025) e SBT News (09/05/2025). As fontes consultadas não confirmam
+ressarcimento integral das vítimas nem o encerramento de toda a investigação;
+por isso o texto não afirma isso.
+
+## Referências
+- CNN Brasil: https://www.cnnbrasil.com.br/nacional/centro-oeste/df/policia-prende-golpistas-que-usavam-deepfake-de-marcos-mion-na-internet/
+- Correio Braziliense: https://www.correiobraziliense.com.br/cidades-df/2025/05/amp/7141364-grupo-usava-deepfake-de-marcos-mion-para-aplicar-golpes-na-internet.html
+- SBT News: https://sbtnews.sbt.com.br/noticia/policia/hacker-e-preso-suspeito-de-usar-inteligencia-artificial-em-golpes-com-imagens-de-famosos
+- CERT.br — Dicas Rápidas: https://cartilha.cert.br/dicas-rapidas/
+- Ministério do Trabalho — NR-17: https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-17-nr-17/
